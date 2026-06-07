@@ -1,8 +1,6 @@
 # 🚢 Titanic – Previsão de Sobrevivência
 **Projeto Avaliativo P2 · Bacharelado em Inteligência Artificial · UNIMAR 2026**
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://would-you-survive-titanic.streamlit.app)
-
 ---
 
 ## 👥 Integrantes e RAs
@@ -43,8 +41,6 @@ kaggle competitions download -c titanic
 
 # Ou via site: https://www.kaggle.com/competitions/titanic/data
 ```
-
-> Após o download, renomeie ou utilize o arquivo como `Titanic-Dataset.csv` e coloque-o na raiz do projeto (mesma pasta do notebook).
 
 ---
 
@@ -232,8 +228,6 @@ titanic-p2/
    ```bash
    jupyter notebook notebooks/notebook_atualizado.ipynb
    ```
-   > Execute todas as células em ordem, do início ao fim. A **Seção 8** gera os três arquivos necessários para o app: `model/modelo_final.pkl`, `model/scaler_final.pkl` e `model/feature_names.pkl`.
-
 ---
 
 ## ▶️ Como Executar o App Streamlit
@@ -267,6 +261,3 @@ O app abrirá em `http://localhost:8501`
 
 O projeto demonstrou que fatores socioeconômicos e a política de evacuação da época (*"mulheres e crianças primeiro"*) foram determinantes para a sobrevivência. A feature **Sex** concentra 39,11% da importância relativa do modelo, seguida de **Fare** (19,41%) e **Age** (14,21%). O **Gradient Boosting** foi selecionado como modelo final por sua superioridade na validação cruzada (AUC-ROC 0,8760) e por sua escalabilidade para contextos de produção com datasets maiores.
 
----
-
-*Projeto Avaliativo P2 – Bacharelado em Inteligência Artificial – UNIMAR 2026*
