@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
+![Streamlit](https://img.shields.io/badge/Deploy-Streamlit-red)
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
 # 🚢 Titanic – Previsão de Sobrevivência
 **Projeto Avaliativo P2 · Bacharelado em Inteligência Artificial · UNIMAR 2026**
 
@@ -72,7 +76,7 @@ Titanic-Dataset.csv
     ├── Pré-processamento (sem Data Leakage)
     │     ├── Imputação de Age pela mediana por Título (do treino)
     │     ├── Imputação de Embarked pela moda (do treino)
-    │     ├── Winsorização de Fare no P99 do treino (cap: £227,53)
+    │     ├── Winsorização de Fare no P99 do treino (cap: £227,53) #Ajustada a predição limite de £300 no app.py
     │     ├── Label Encoding de Sex, Embarked, Title
     │     └── StandardScaler (ajustado somente no treino)
     │
